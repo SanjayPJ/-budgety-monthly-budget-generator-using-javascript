@@ -1,0 +1,133 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
+    <link rel="stylesheet" href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+
+    <title>Budget-App</title>
+</head>
+
+<body>
+
+    <!-- hero starts here -->
+    <div class="hero d-flex justify-content-center align-items-center">
+        <div class="container text-center pt-5">
+            <h1>Budgety<span>.</span>
+            </h1>
+            <div class="hero-subtext">
+                Available budget in
+                <span class="hero-time">September, 2016:</span>
+
+            </div>
+
+            <div class="hero-numbers">
+                <div class="row">
+                    <div class="col-md-12 pt-5">
+                        <h5 class="hero-total">+ 34223.89</h5>
+                    </div>
+                </div>
+                <div class="row pb-3">
+                    <div class="col-2"></div>
+                    <div class="col-md-4">
+                        <div class="alert alert-success clearfix" role="alert">
+                            <span style="float: left;">INCOME</span>
+                            <span style="float: right" class="i-text">+ 45546.00</span>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4">
+                        <div class="alert alert-danger clearfix" role="alert">
+                            <span style="float: left;">EXPENSES</span>
+                            <span class="e-percentage px-1 main-percentage">12%</span>
+                            <span style="float: right;" class="e-text">- 7897.40</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- hero ends here -->
+    <div class="container text-center py-3">
+        <div class="form-group">
+            <select class="form-control selector" id="exampleFormControlSelect1">
+                <option value="i">+</option>
+                <option value="e">-</option>
+            </select>
+            <input type="text" class="form-control text-wrapper">
+            <input type="number" class="form-control number-wrapper">
+            <button type="button" class="btn btn-primary">
+                <i class="fas fa-check"></i>
+            </button>
+
+        </div>
+    </div>
+    <hr>
+    <div class="container pt-5">
+        <div class="row details">
+            <div class="col-md-6">
+                <h5 class="text-success">INCOME</h5>
+                <div class="pt-4 pl-2 income-html" style="font-size: 120%;" id="income">
+                    <!-- <div class="alert alert-success mt-1 clearfix" role="alert">
+                        <span>Some project</span>
+                        <button type="button" class="close" aria-label="Close" style="float: right">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                        <span style="float: right;" class="pr-3">+ 0.00</span>
+                    </div>
+                    <div class="alert alert-success clearfix" role="alert">
+                        <span>Some project</span>
+                        <button type="button" class="close" aria-label="Close" style="float: right">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+
+                        <span style="float: right;" class="pr-3">+ 0.00</span>
+                    </div> -->
+
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h5 class="text-danger">EXPENSES</h5>
+                <div class="pt-4 pl-2 expenses-html" style="font-size: 120%" id="expenses">
+                    <!-- <div class="alert alert-danger clearfix" role="alert">
+                        <span>Some project</span>
+
+                        <button type="button" class="close" aria-label="Close" style="float: right">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <span class="e-percentage px-1 mr-2" style="font-size: 80%;">100%</span>
+                        <span style="float: right;" class="pr-2">- 0.00</span>
+                    </div>
+                    <div class="alert alert-danger clearfix" role="alert">
+                        <span>Some project</span>
+
+                        <button type="button" class="close" aria-label="Close" style="float: right">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                        <span class="e-percentage px-1 mr-2" style="font-size: 80%;">100%</span>
+                        <span style="float: right;" class="pr-2">- 0.00</span>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="assets/script.js"></script>
+</body>
+
+</html>

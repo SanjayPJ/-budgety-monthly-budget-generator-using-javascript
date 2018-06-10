@@ -1,0 +1,69 @@
+body{
+    font-family: 'Kaushan Script', cursive;  
+}
+
+
+.hero{
+    height: 55vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.4),rgba(255, 255, 255, 0.4)), url("https://images.pexels.com/photos/1121700/pexels-photo-1121700.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-position: center;
+    background-size: cover;  
+
+}
+.hero h1{
+    font-size: 600%;
+    color: #c0392a;
+    line-height: 100px;
+}
+.hero h1 span{
+    color: #34495e;
+}
+.hero-subtext{
+    line-height: 2px;
+    padding-left: 120px;
+    font-size: 130%;
+    color: #202020;
+}
+.hero-total {
+    font-size: 400%;
+}
+.alert{
+    font-size: 80%;
+    margin-top: 10px;
+}
+.hero-numbers{
+    margin-top: 15px;
+}
+.alert-success{
+    background-color:hsla(134, 41%, 88%, 0.6) ;
+}
+.alert-danger{
+background-color: hsla(355, 70%, 91%, 0.6);
+}
+.e-percentage{
+    float: right; 
+    margin-left: 10px;
+    background-color:#1B9CFC ;
+    height: 19px; 
+    color: hsla(355, 70%, 91%, 1);
+    border-radius: 25%;
+}
+.selector{
+    width: 6%;
+    display: inline-block;
+}
+.text-wrapper{
+    display: inline-block;
+    width: 60%;
+}
+.number-wrapper{
+    display: inline-block;
+    width: 10%;
+}
+.form-group{
+    margin-bottom: 0px;
+}
+hr{
+    margin: 0;
+}
